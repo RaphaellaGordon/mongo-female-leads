@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "films with strong female leads API project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaphaellaGordon/mongo-female-leads.git"
+  },
+  "keywords": [
+    "mongo",
+    "API"
+  ],
+  "author": "Raphaella Gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaphaellaGordon/mongo-female-leads/issues"
+  },
+  "homepage": "https://github.com/RaphaellaGordon/mongo-female-leads#readme"
+}
