@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/RaphaellaGordon/mongo-female-leads/issues"
   },
-  "homepage": "https://github.com/RaphaellaGordon/mongo-female-leads#readme"
+  "homepage": "https://github.com/RaphaellaGordon/mongo-female-leads#readme",
+  "dependencies": {
+    "mongoose": "^5.2.17"
+  }
 }

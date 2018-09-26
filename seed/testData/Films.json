@@ -1,0 +1,33 @@
+[
+  
+  {
+    "name": "Conviction",
+    "year": 2010,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjEwNzUzNTk0Ml5BMl5BanBnXkFtZTcwMDE1MTk1Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Betty Anne Waters",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTM0NTU2OTMxNV5BMl5BanBnXkFtZTcwMzIyMzgxMw@@._V1_SY1000_CR0,0,1497,1000_AL_.jpg",
+    "quote": "You are innocent!",
+    "lead_actress": "Hilary Swank"
+  },
+  {
+    "name": "Erin Brockovich",
+    "year": 2000,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BYTA1NWRkNTktNDMxNS00NjE4LWEzMDAtNzA3YzlhYzRhNDA4L2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Erin Brockovich",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTQyMzExNjM4OV5BMl5BanBnXkFtZTcwMzg0OTczNQ@@._V1_SY1000_CR0,0,1502,1000_AL_.jpg",
+    "quote": "NOT PERSONAL! That is my WORK, my SWEAT, and MY TIME AWAY FROM MY KIDS! IF THAT IS NOT PERSONAL, I DON'T KNOW WHAT IS!",
+    "lead_actress": "Julia Roberts"
+  },
+  {
+    "name": "Zero Dark Thirty",
+    "year": 2012,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ4OTUyNzcwN15BMl5BanBnXkFtZTcwMTQ1NDE3OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Thriller",
+    "lead_character": "Maya",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BODcyODQ1ODU1N15BMl5BanBnXkFtZTcwOTU0NTU1OA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+    "quote": "No, I just learned from my predecessor that life is better when I don't disagree with you.",
+    "lead_actress": "Jessica Chastain"
+  }
+]

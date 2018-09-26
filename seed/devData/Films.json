@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Brave",
+    "year": 2012,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Animation",
+    "lead_character": "Merida",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTM1NDI4OTAxMV5BMl5BanBnXkFtZTcwNzU5NjkyNw@@._V1_SX1777_CR0,0,1777,961_AL_.jpg",
+    "quote": "I am Merida, firstborn descendant of Clan Dunbroch. And I'LL be shooting FOR MY OWN HAND!",
+    "lead_actress": "Kelly Macdonald"
+  },
+  {
+    "name": "Collette",
+    "year": 2018,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BZTg5M2MxYzAtZjUwMi00MzRjLTkxNTItZmNjYzUxZjI3YzI3XkEyXkFqcGdeQXVyNDY2MjcyOTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Collette",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMjA0Nzk0NTQzMV5BMl5BanBnXkFtZTgwMzE2ODU0NDM@._V1_.jpg",
+    "lead_actress": "Keira Knightly"
+  },
+  {
+    "name": "Conviction",
+    "year": 2010,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjEwNzUzNTk0Ml5BMl5BanBnXkFtZTcwMDE1MTk1Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Betty Anne Waters",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTM0NTU2OTMxNV5BMl5BanBnXkFtZTcwMzIyMzgxMw@@._V1_SY1000_CR0,0,1497,1000_AL_.jpg",
+    "quote": "You are innocent!",
+    "lead_actress": "Hilary Swank"
+  },
+  {
+    "name": "Educating Rita",
+    "year": 1983,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BOTA2Njk1NzM5MF5BMl5BanBnXkFtZTcwNzAzMzMzMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg",
+    "genre": "Comedy",
+    "lead_character": "Rita",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BYTBkNTRjNmItYjM5NC00YzBlLTk0ODAtOGE5N2EyZGExMzcxXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg",
+    "quote": " I'm beginning to find me. It's great.",
+    "lead_actress": "Julie Waters"
+  },
+  {
+    "name": "Erin Brockovich",
+    "year": 2000,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BYTA1NWRkNTktNDMxNS00NjE4LWEzMDAtNzA3YzlhYzRhNDA4L2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Erin Brockovich",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTQyMzExNjM4OV5BMl5BanBnXkFtZTcwMzg0OTczNQ@@._V1_SY1000_CR0,0,1502,1000_AL_.jpg",
+    "quote": "NOT PERSONAL! That is my WORK, my SWEAT, and MY TIME AWAY FROM MY KIDS! IF THAT IS NOT PERSONAL, I DON'T KNOW WHAT IS!",
+    "lead_actress": "Julia Roberts"
+  },
+  {
+    "name": "First Wives Club",
+    "year": 1996,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMzAwZTA3Y2UtMWVlMi00ZmNiLTkzZjAtYjA2YzBhMGMyYzQ2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Comedy",
+    "lead_character": "Annie",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BZjAxYjcxM2EtM2EyMS00MGRiLWEyYWYtZDc4ZTA4MjcwZGNkXkEyXkFqcGdeQXVyNjkxMjM5Nzc@._V1_.jpg",
+    "quote": " I'm saying this, with love compassion and the spirit of true sisterhood... you are full of SHIT!",
+    "lead_actress": "Diane Keaton"
+  },
+  {
+    "name": "Freedom Writers",
+    "year": 2007,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTIxMzExNTgxMV5BMl5BanBnXkFtZTcwNDUxODM0MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Erin Gruwell",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTcwNjgxNDYyOV5BMl5BanBnXkFtZTYwMjYyMzM3._V1_.jpg",
+    "quote": " I can see you. And you are not failing.",
+    "lead_actress": "Hilary Swank"
+  },
+  {
+    "name": "Frozen",
+    "year": 2013,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Animation",
+    "lead_character": "Anna",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BNWUzM2QyZTEtNTY4Zi00ODc3LThmZjgtNzZiM2YxNDc5N2RhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjQyNjg3Nzk@._V1_SX1777_CR0,0,1777,792_AL_.jpg",
+    "quote": "The only frozen heart around here is yours.",
+    "lead_actress": "Kristen Bell"
+  },
+  {
+    "name": "Gorillas in the Mist",
+    "year": 1988,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BZTZhZmVkNzUtNGE0MC00ZmNlLWJkMzMtYThkNjBmNmZhYmRjXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY268_CR7,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Dian Fossey",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BNDg1ODQ2NzYxOV5BMl5BanBnXkFtZTgwNDYxNzY3NTM@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+    "quote": "Now wait a minute! I quit my job, left my fiancé, to say nothing of my appendix and flew halfway around the world. Those cases contain my hairdryer, my makeup, my underwear and my brassieres. If they don't go, Dr Leakey, I don't go.",
+    "lead_actress": "Sigourney Weaver"
+  },
+  {
+    "name": "Hidden Figures",
+    "year": 2016,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMzg2Mzg4YmUtNDdkNy00NWY1LWE3NmEtZWMwNGNlMzE5YzU3XkEyXkFqcGdeQXVyMjA5MTIzMjQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Katherine G. Johnson",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BOTVmNTQ2NTUtZjIzYy00YmM3LWFhMWMtOTY2MjU0NzQyYWE1L2ltYWdlXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SY1000_CR0,0,1497,1000_AL_.jpg",
+    "quote": "So yes, they let women do some things at NASA, Mr. Johnson. And it's not because we wear skirts. It's because we wear glasses. Have a good day.",
+    "lead_actress": "Taraji P. Henson"
+  },
+  {
+    "name": "I Feel Pretty",
+    "year": 2018,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMGI3ZDRjZTQtMTMyYy00NGI4LWI2MjktNzMyMjg0NjQ2NTY0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Comedy",
+    "lead_character": "Renee Bennett",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTg2NDI5MjQ0Ml5BMl5BanBnXkFtZTgwMDAzOTY3NDM@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+    "quote": "If you ever get the chance to hangout with me or my friends, my amazing perfect friends, well all I have to say to you is you're welcome.",
+    "lead_actress": "Amy Schumer"
+  },
+  {
+    "name": "The Iron Lady",
+    "year": 2011,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BODEzNDUyMDE3NF5BMl5BanBnXkFtZTcwMTgzOTg3Ng@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Margaret Thatcher",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BNDM4YzM3ZmEtZWE1OS00Zjg4LTkxNWUtOTdhNzQ2MWVjMjliL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg",
+    "quote": "Do you know, one of the greatest problems of our age is that we are governed by people who care more about feelings than they do about thoughts and ideas? Now, thoughts and ideas, that interests me.",
+    "lead_actress": "Meryl Streep"
+  },
+  {
+    "name": "Legally Blonde",
+    "year": 2001,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNTEyNjUwMTkxMV5BMl5BanBnXkFtZTcwNjk0NDk0NA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Comedy",
+    "lead_character": "Elle Woods",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMzYwNTUyMjk4N15BMl5BanBnXkFtZTcwMjg0NDk0NA@@._V1_.jpg",
+    "quote": "But if I'm going to be a partner in a law firm by the time I'm 30, I need a boyfriend who's not such a complete bonehead.",
+    "lead_actress": "Reese Witherspoon"
+  },
+  {
+    "name": "Me before you",
+    "year": 2,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ2NjE4NDE2NV5BMl5BanBnXkFtZTgwOTcwNDE5NzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Romance",
+    "lead_character": "Lou Clark",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BYzdkOTUyYWUtNGEyOC00OTAyLWEyMmMtMTBjMThjNzg1OTQ3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg",
+    "quote": "220 calories. But, there is less if you eat them standing up.",
+    "lead_actress": "Emilia Clarke"
+  },
+  {
+    "name": "Million Dollar Baby",
+    "year": 2004,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Sport",
+    "lead_character": "Maggie Fitzgerald",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BOTA2Mzc1OTEyOF5BMl5BanBnXkFtZTcwNDU3NTUyMw@@._V1_SY1000_CR0,0,1501,1000_AL_.jpg",
+    "quote": "If I was thinking straight, I'd go back home, find a used trailer, buy a deep fryer and some oreos. Problem is, this the only thing I ever felt good doing. If I'm too old for this, then I got nothing.",
+    "lead_actress": "Hilary Swank"
+  },
+  {
+    "name": "Miss Sloane",
+    "year": 2016,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTAyODY4Njc4MjBeQTJeQWpwZ15BbWU4MDI0NTIzMDAy._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Thriller",
+    "lead_character": "Madeline Elizabeth Sloane",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BNzE2NTA2YzAtNjIxOS00OWQ3LWJkZWItMTc4YjVlNmM0YTUwL2ltYWdlXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+    "quote": "You crossed the line when you stopped treating people with respect. You're smart enough to know that. You just don't care.",
+    "lead_actress": "Jessica Chastain"
+  },
+  {
+    "name": "Molly’s Game",
+    "year": 2017,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNTkzMzRlYjEtMTQ5Yi00OWY3LWI0NzYtNGQ4ZDkzZTU0M2IwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Molly Bloom",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMDQ2MjA5M2YtOWQ1ZS00NTlhLTgwZTItMzIyMzZjM2Y4ZDQ2XkEyXkFqcGdeQXVyNzg2ODI2OTU@._V1_SX1777_CR0,0,1777,727_AL_.jpg",
+    "quote": "You know what makes you feel okay about losing? Winning.",
+    "lead_actress": "Jessica Chastain"
+  },
+  {
+    "name": "Mona Lisa Smile",
+    "year": 2003,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTI0NjEwNDgwOV5BMl5BanBnXkFtZTYwOTI1NTA3._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Drama",
+    "lead_character": "Katherine Ann Watson",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTk3NjI1ODI5MF5BMl5BanBnXkFtZTYwOTU0NTA3._V1_.jpg",
+    "quote": "The smartest women in the country, I didn't realize that by demanding excellence I would be challenging... what did it say?... the roles you were born to fill.",
+    "lead_actress": "Julia Roberts"
+  },
+  {
+    "name": "Mulan",
+    "year": 1998,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BODkxNGQ1NWYtNzg0Ny00Yjg3LThmZTItMjE2YjhmZTQ0ODY5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Animation",
+    "lead_character": "Mulan",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BNzM4ZWJkMjctMWZlYy00ZDZhLTkwMzctODU4OGYzNGE4MTRhXkEyXkFqcGdeQXVyNTQxMTIxMTk@._V1_SY1000_CR0,0,1688,1000_AL_.jpg",
+    "quote": "My little baby, off to destroy people.",
+    "lead_actress": "Ming-Na Wen"
+  },
+  {
+    "name": "North Country",
+    "year": 2005,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNTM3OTEwODYzNl5BMl5BanBnXkFtZTcwNjM1NzUzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Josey Aimes",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMjE3MzM0MTI1OV5BMl5BanBnXkFtZTcwMDI1NzUzMw@@._V1_SY1000_CR0,0,1534,1000_AL_.jpg",
+    "quote": "You don't go to work scared of what they write about you on the walls, or what kind of disgusting thing you might find in your locker. You don't gotta be scared that one of these days you'll come to work and get raped.",
+    "lead_actress": "Charlize Theron"
+  },
+  {
+    "name": "Oceans Eight",
+    "year": 2018,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAyNDEyMzc4Ml5BMl5BanBnXkFtZTgwMjEzNjM0NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Action",
+    "lead_character": "Debbie Ocean",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTk5Njk0MTkxNl5BMl5BanBnXkFtZTgwMjkwNTc1NTM@._V1_SX1777_CR0,0,1777,746_AL_.jpg",
+    "quote": "If you're going to have a problem with stealing, then you're not going to like the rest of this conversation.",
+    "lead_actress": "Sandra Bullock"
+  },
+  {
+    "name": "On the Basis of sex",
+    "year": 2018,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BYzJlYmEwYjEtMmE1Ny00ZjdiLTg2ZjctMmMxYjRhNGJkNTY2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR3,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Ruth Bader Ginsburg",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTgwNDE1MjY3MV5BMl5BanBnXkFtZTgwMzU4MDQ3MzI@._V1_SY1000_CR0,0,939,1000_AL_.jpg",
+    "quote": "Judge: 'The word 'woman' does not appear even once in the US Constitution.' Ruth Bader Ginsburg 'Nor does the word 'freedom,' Your Honor.'",
+    "lead_actress": "Felicity Jones"
+  },
+  {
+    "name": "Pocahontas",
+    "year": 1995,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMzc4YzhiN2ItY2Y4NC00YTA0LWEyMjEtNzllNTcxZDdjODhiXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Animation",
+    "lead_character": "Pocahontas",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTM0NTQ1MjQxNV5BMl5BanBnXkFtZTcwNjUyNTIyNw@@._V1_SY1000_CR0,0,1686,1000_AL_.jpg",
+    "quote": "My daughter speaks with the wisdom beyond her years. We've all come here with anger in our hearts, but she comes with courage and understanding. From this day forward, if there is to be more killing, it will not start with me.",
+    "lead_actress": "Irene Bedard"
+  },
+  {
+    "name": "Pride and Prejudice",
+    "year": 2005,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Romance",
+    "lead_character": "Elizabeth Bennet",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMjIzNDU2Nzk4N15BMl5BanBnXkFtZTcwMjY1OTk0OQ@@._V1_.jpg",
+    "quote": "Only the deepest love will persuade me into matrimony, which is why I will end up an old maid.",
+    "lead_actress": "Keira Knightly"
+  },
+  {
+    "name": "The Queen",
+    "year": 2006,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ3NTMxODg1Ml5BMl5BanBnXkFtZTcwMjEyMjczMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Queen Elizabeth II",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMjA5MzI2Mjk1NF5BMl5BanBnXkFtZTgwMDk3OTYyMTI@._V1_.jpg",
+    "quote": "It wasn't too short was it? Fifteen minutes, one doesn't want to be rude.",
+    "lead_actress": "Helen Mirren"
+  },
+  {
+    "name": "Sense and Sensibility",
+    "year": 1995,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNzk1MjU3MDQyMl5BMl5BanBnXkFtZTcwNjc1OTM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Romance",
+    "lead_character": "Elinor Dashwood",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BNzMxODg2MjU5MF5BMl5BanBnXkFtZTcwNjQ3MTE0NQ@@._V1_SY1000_CR0,0,1491,1000_AL_.jpg",
+    "quote": "I knew a lady very like your sister - the same impulsive sweetness of temper - who was forced into, as you put it, a better acquaintance with the world. The result was only ruination and despair. Do not desire it, Miss Dashwood.",
+    "lead_actress": "Emma Thompson"
+  },
+  {
+    "name": "Suffragette",
+    "year": 2015,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA2NDYxOTI1MV5BMl5BanBnXkFtZTgwOTgyMjU3NjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Biography",
+    "lead_character": "Maud Watts",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMTU1MjkwODQ4MV5BMl5BanBnXkFtZTgwOTE4ODk4NTE@._V1_SY1000_CR0,0,1503,1000_AL_.jpg",
+    "quote": "We break windows, we burn things. Cause war's the only language men listen to! Cause you've beaten us and betrayed us and there's nothing else left!",
+    "lead_actress": "Carey Mulligan"
+  },
+  {
+    "name": "Tomb Raider",
+    "year": 2018,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BOTY4NDcyZGQtYmVlNy00ODgwLTljYTMtYzQ2OTE3NDhjODMwXkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Action",
+    "lead_character": "Lara Croft",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BMjEwNTk0NjM0OV5BMl5BanBnXkFtZTgwNTcwMDY3NDM@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+    "quote": "You messed with the wrong family.",
+    "lead_actress": "Alicia Vikander"
+  },
+  {
+    "name": "Working Girl",
+    "year": 1988,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BZTIwZGE5OWUtYzMxMi00Njk5LWI5NjAtMWYyMDljZGRjYWRlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Comedy",
+    "lead_character": "Tess McGill",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BYzk1ODc4NTEtZTA2My00MmNkLWE0OTEtNzc3ZGIzY2Q3Yjg1XkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg",
+    "quote": "You can bend the rules plenty once you get to the top, but not while you're trying to get there. And if you're someone like me, you can't get there without bending the rules.",
+    "lead_actress": "Melanie Griffith"
+  },
+  {
+    "name": "Zero Dark Thirty",
+    "year": 2012,
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ4OTUyNzcwN15BMl5BanBnXkFtZTcwMTQ1NDE3OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genre": "Thriller",
+    "lead_character": "Maya",
+    "lead_character_img_url": "https://m.media-amazon.com/images/M/MV5BODcyODQ1ODU1N15BMl5BanBnXkFtZTcwOTU0NTU1OA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+    "quote": "No, I just learned from my predecessor that life is better when I don't disagree with you.",
+    "lead_actress": "Jessica Chastain"
+  }
+]

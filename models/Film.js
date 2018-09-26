@@ -6,6 +6,10 @@ const FilmSchema = new Schema ({
     type: String,
     required: true
   },
+  year: {
+    type: Number,
+    required: true
+  },
   poster_url: {
     type: String
   },
@@ -19,8 +23,7 @@ const FilmSchema = new Schema ({
     default: 0
   },
   lead_character: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'actresses',
+    type: String,
     required: true
   },
   lead_character_img_url: {
@@ -28,6 +31,11 @@ const FilmSchema = new Schema ({
   },
   quote: {
     type: String
+  },
+  lead_actress: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'actresses',
+    required: true
   }
 })
 

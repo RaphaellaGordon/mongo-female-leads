@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Julia Roberts",
+    "img_url": "https://m.media-amazon.com/images/M/MV5BMTQzNjU3MDczN15BMl5BanBnXkFtZTYwNzY2Njc4._V1_.jpg"
+  },
+  {
+    "name": "Jessica Chastain",
+    "img_url": "https://m.media-amazon.com/images/M/MV5BMTU1MDM5NjczOF5BMl5BanBnXkFtZTcwOTY2MDE4OA@@._V1_SY1000_CR0,0,673,1000_AL_.jpg"
+  },
+  {
+    "name": "Hilary Swank",
+    "img_url": "https://m.media-amazon.com/images/M/MV5BMTM5NzQzNTU4NV5BMl5BanBnXkFtZTcwMDAyOTMwMw@@._V1_.jpg"
+  }
+]
