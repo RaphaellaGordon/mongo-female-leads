@@ -4,7 +4,8 @@ const { Schema } = mongoose;
 const ActressSchema = new Schema ({
   name: {
     type: String,
-    required: true
+    required: true,
+    minlength: 3
   },
   img_url: {
     type: String

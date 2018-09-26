@@ -17,9 +17,9 @@ const seedDB = ({ actressData, filmData, genreData }) => {
       Film.insertMany(formatFilmData(filmData, actressDocs, genreDocs))
     ])
   })
-  .then(([actressDocs, genreDocs, filmDocs]) => {
-    console.log(filmDocs)
-  })
+  // .then(([actressDocs, genreDocs, filmDocs]) => {
+  //   console.log(filmDocs)
+  // })
 }
 
 module.exports = seedDB;

@@ -1,0 +1,34 @@
+const { Actress, Film } = require('../models');
+
+const getActresses = (req, res, next) => {
+  Actress.find()
+  .then(actresses => {
+    res.status(200).send({ actresses })
+  })
+  .catch(next)
+}
+
+const postActress = (req, res, next) => {
+  const {name, img_url} = req.body
+  const newActress = new Actress({
+    name,
+    img_url
+  })
+  newActress.save()
+  .then(actress => {
+    res.status(201).send({actress})
+  })
+  .catch(next)
+}
+
+const getActressByName = (req, res, next) => {
+  Actress.findOne({name: req.params.actress})
+  .then(actress => {
+    if(!!Number(req.params.actress)) throw {status: 400}
+    if (!actress) throw { status: 404 }
+    res.status(200).send({actress})
+  })
+  .catch(next)
+}
+
+module.exports = { getActresses, getActressByName, postActress };
