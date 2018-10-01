@@ -1,8 +1,7 @@
 const validateActress = (actress, actressDocs) => {
-  return actressDocs.find(actressDoc => {
-    actressDoc.name === actress
-    return actressDoc._id
-  })
+  for(let i = 0; i < actressDocs.length; i++) {
+    if (actress === actressDocs[i].name) return actress;
+  }
 }
 
 const validateGenre = (genre, genreDocs) => {
@@ -10,14 +9,19 @@ const validateGenre = (genre, genreDocs) => {
     genreDoc.type === genre
     return genreDoc._id
   })
+  // for(let i = 0; i < genreDocs.length; i++) {
+  //   if (genre === genreDocs[i].name) return genre;
+  // }
+  // return genreDocs.find(genreDoc => {
+  //   if(genre === genreDoc) return genre;
+  // })
 }
 
 const formatFilmData = ((filmData, actressDocs, genreDocs) => {
   return filmData.map(film => {
     return {
       ...film,
-      lead_actress: validateActress(film.actress, actressDocs),
-      // actress_img: getActressImg(film.actress, actressDocs),
+      lead_actress: validateActress(film.lead_actress, actressDocs),
       genre: validateGenre(film.genre, genreDocs)
     }
   })

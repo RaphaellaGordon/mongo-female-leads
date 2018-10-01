@@ -14,8 +14,7 @@ const FilmSchema = new Schema ({
     type: String
   },
   genre: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'genres',
+    type: String,
     required: true
   },
   votes: {
@@ -33,8 +32,7 @@ const FilmSchema = new Schema ({
     type: String
   },
   lead_actress: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'actresses',
+    type: String,
     required: true
   }
 })

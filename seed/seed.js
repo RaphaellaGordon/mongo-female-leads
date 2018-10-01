@@ -18,7 +18,7 @@ const seedDB = ({ actressData, filmData, genreData }) => {
     ])
   })
   // .then(([actressDocs, genreDocs, filmDocs]) => {
-  //   console.log(filmDocs)
+  //   console.log(filmDocs[0])
   // })
 }
 
