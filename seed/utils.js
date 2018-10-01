@@ -5,16 +5,9 @@ const validateActress = (actress, actressDocs) => {
 }
 
 const validateGenre = (genre, genreDocs) => {
-  return genreDocs.find(genreDoc => {
-    genreDoc.type === genre
-    return genreDoc._id
-  })
-  // for(let i = 0; i < genreDocs.length; i++) {
-  //   if (genre === genreDocs[i].name) return genre;
-  // }
-  // return genreDocs.find(genreDoc => {
-  //   if(genre === genreDoc) return genre;
-  // })
+  for(let i = 0; i < genreDocs.length; i++) {
+    if (genre === genreDocs[i].genre) return genre;
+  }
 }
 
 const formatFilmData = ((filmData, actressDocs, genreDocs) => {
