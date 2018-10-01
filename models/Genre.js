@@ -4,7 +4,8 @@ const { Schema } = mongoose;
 const GenreSchema = new Schema ({
   genre: {
     type: String,
-    required: true
+    required: true,
+    minlength: 3
   }
 })
 

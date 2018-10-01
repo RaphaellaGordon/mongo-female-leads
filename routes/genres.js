@@ -1,5 +1,5 @@
 const genresRouter = require('express').Router();
-const { getGenres, getGenreByName, postGenre } = require('../controllers/actresses');
+const { getGenres, getGenreByName, postGenre, getFilmsByGenre } = require('../controllers/genres');
 
 genresRouter.route('/')
   .get(getGenres)
@@ -8,4 +8,7 @@ genresRouter.route('/')
 genresRouter.route('/:genre')
   .get(getGenreByName)
 
-module.exports = actressesRouter;
+genresRouter.route('/:genre/films')
+  .get(getFilmsByGenre)
+
+module.exports = genresRouter;
