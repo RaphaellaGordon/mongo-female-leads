@@ -70,6 +70,29 @@ describe('/api', () => {
           expect(res.body.msg).to.equal('Not found')
         })
       })
+      describe('/films', () => {
+        it('GET returns object of films for requested actress', () => {
+          return request.get(`/api/actresses/${actresses[0].name}/films`)
+          .expect(200)
+          .then(res => {
+            expect(res.body.films[0].lead_actress).to.equal(actresses[0].name)
+          })
+        })
+        it('GET ERROR returns error message and 400 status code', () => {
+          return request.get('/api/actresses/5/films')
+          .expect(400)
+          .then(res => {
+            expect(res.body.msg).to.equal('Bad request')
+          })
+        })
+        it('GET ERROR returns error message and 404 status code', () => {
+          return request.get('/api/actresses/abcdef/films')
+          .expect(404)
+          .then(res => {
+            expect(res.body.msg).to.equal('Not found')
+          })
+        })
+      })
     })
   })
 })
