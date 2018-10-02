@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const actressesRouter = require('./actresses');
 const genresRouter = require('./genres');
+const filmssRouter = require('./films');
 
 router.route('/', (req, res, next) => {
   res.send('index')
@@ -8,5 +9,6 @@ router.route('/', (req, res, next) => {
 
 router.use('/actresses', actressesRouter);
 router.use('/genres', genresRouter);
+router.use('/films', filmsRouter);
 
 module.exports = router;
