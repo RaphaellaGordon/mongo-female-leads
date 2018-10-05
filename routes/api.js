@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const actressesRouter = require('./actresses');
 const genresRouter = require('./genres');
-const filmssRouter = require('./films');
+const filmsRouter = require('./films');
 
 router.route('/', (req, res, next) => {
   res.send('index')

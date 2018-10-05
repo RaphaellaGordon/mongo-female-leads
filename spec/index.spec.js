@@ -77,7 +77,7 @@ describe('/api', () => {
         })
       })
       describe('/films', () => {
-        it('GET returns an array of objects of films for requested actress', () => {
+        it('GET returns an array of objects of films for requested actress and 200 status code', () => {
           return request.get(`/api/actresses/${actresses[0].name}/films`)
           .expect(200)
           .then(res => {
@@ -157,7 +157,7 @@ describe('/api', () => {
           expect(res.body.msg).to.equal('Not found')
         })
       })
-      xdescribe('/films', () => {
+      describe('/films', () => {
         it('GET returns an array of objects of films for requested genre', () => {
           return request.get(`/api/genres/${genres[0].genre}/films`)
           .expect(200)
@@ -186,4 +186,149 @@ describe('/api', () => {
       })
     })
   })
+  describe('/films', () => {
+    it('GET returns an array of film objects and 200 status code', () => {
+      return request.get('/api/films')
+      .expect(200)
+      .then(res => {
+        expect(res.body.films).to.be.an('array')
+        expect(res.body.films).to.have.lengthOf(films.length)
+        expect(res.body.films[0].name).to.be.equal(films[0].name)
+        expect(res.body.films[0].lead_character).to.be.equal(films[0].lead_character)
+      })
+    })
+    it('POST adds a new film and sends a 201 status code', () => {
+      return request.post('/api/films')
+      .send({
+        name: "Freedom Writers",
+        year: 2007,
+        poster_url: "https://m.media-amazon.com/images/M/MV5BMTIxMzExNTgxMV5BMl5BanBnXkFtZTcwNDUxODM0MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        genre: "Biography",
+        lead_character: "Erin Gruwell",
+        lead_character_img_url: "https://m.media-amazon.com/images/M/MV5BMTcwNjgxNDYyOV5BMl5BanBnXkFtZTYwMjYyMzM3._V1_.jpg",
+        quote: " I can see you. And you are not failing.",
+        lead_actress: "Hilary Swank"
+      })
+      .expect(201)
+      .then(res => {
+        expect(res.body.film).is.an('object')
+        expect(res.body.film.name).to.equal('Freedom Writers')
+        expect(res.body.film.genre).to.equal('Biography')
+      })
+    })
+    it('POST ERROR returns error message and 400 status code', () => {
+      return request.post('/api/films')
+      .send ({
+        year: 2007,
+        poster_url: "https://m.media-amazon.com/images/M/MV5BMTIxMzExNTgxMV5BMl5BanBnXkFtZTcwNDUxODM0MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        genre: "Biography",
+        lead_character: "Erin Gruwell",
+        lead_character_img_url: "https://m.media-amazon.com/images/M/MV5BMTcwNjgxNDYyOV5BMl5BanBnXkFtZTYwMjYyMzM3._V1_.jpg",
+        quote: " I can see you. And you are not failing.",
+        lead_actress: "Hilary Swank"
+      })
+      .expect(400)
+      .then(res => {
+        expect(res.body.msg).to.equal('Films validation failed: name: Path `name` is required.')
+      })
+    })
+    describe('/:film', () => {
+      it('GET returns an object of requested genre and 200 status code', () => {
+        return request.get(`/api/films/${films[0].name}`)
+        .expect(200)
+        .then(res => {
+          expect(res.body.film).to.be.an('object')
+          expect(res.body.film.name).to.be.equal(films[0].name)
+          expect(res.body.film.genre).to.be.equal(films[0].genre)
+          expect(res.body.film.poster_url).to.be.equal(films[0].poster_url)
+        })
+      })
+      it('GET ERROR returns error message and 400 status code', () => {
+        return request.get('/api/films/{}')
+        .expect(400)
+        .then(res => {
+          expect(res.body).to.be.an('object')
+          expect(res.body.msg).to.equal('Bad request')
+        })
+      })
+      it('GET ERROR returns error message and 404 status code', () => {
+        return request.get('/api/films/abcdef')
+        .expect(404)
+        .then(res => {
+          expect(res.body).to.be.an('object')
+          expect(res.body.msg).to.equal('Not found')
+        })
+      })
+      it('PATCH returns the updated vote count increased by 1 for requested film and 200 status code', () => {
+        return request.patch(`/api/films/${films[0].name}?vote=up`)
+        .expect(200)
+        .then(res => {
+          expect(res.body.film).to.be.an('object')
+          expect(res.body.film.name).to.equal(films[0].name)
+          expect(res.body.film.votes).to.equal(films[0].votes+1)
+        })
+      })
+      it('PATCH returns the updated vote count decreased by 1 for requested film and 200 status code', () => {
+        return request.patch(`/api/films/${films[0].name}?vote=down`)
+        .expect(200)
+        .then(res => {
+          expect(res.body.film).to.be.an('object')
+          expect(res.body.film.name).to.equal(films[0].name)
+          expect(res.body.film.votes).to.equal(films[0].votes-1)
+        })
+      })
+      it('PATCH ERROR returns error message when vote query is invalid and status code 400', () => {
+        return request.patch(`/api/films/${films[0].name}?vote=1`)
+        .expect(400)
+        .then(res => {
+          expect(res.body).to.be.an('object')
+          expect(res.body.msg).to.be.equal('Bad request')
+        })
+      })
+      it('PATCH ERROR returns error message when film name is invalid and status code 400', () => {
+        return request.patch('/api/films/{}?vote=up')
+        .expect(400)
+        .then(res => {
+          expect(res.body).to.be.an('object')
+          expect(res.body.msg).to.be.equal('Bad request')
+        })
+      })
+      it('PATCH ERROR returns error message when film name is not found and status code 404', () => {
+        return request.patch('/api/films/abcdef?vote=up')
+        .expect(404)
+        .then(res => {
+          expect(res.body).to.be.an('object')
+          expect(res.body.msg).to.be.equal('Not found')
+        })
+      })
+      describe.only('/actress', () => {
+        it('GET return an object of requested actress and 200 status code', () => {
+          return request.get(`/api/films/${films[0].name}/actress`)
+          .expect(200)
+          .then(res => {
+            expect(res.body.actress).to.be.an('object')
+            expect(res.body.actress.name).to.equal('Hilary Swank')
+          })
+        })
+        it('GET ERROR returns error message and 400 status code', () => {
+          return request.get('/api/films/{}/actress')
+          .expect(400)
+          .then(res => {
+            expect(res.body).to.be.an('object')
+            expect(res.body.msg).to.equal('Bad request')
+          })
+        })
+        it('GET ERROR returns error message and 404 status code', () => {
+          return request.get('/api/films/abcdef/actress')
+          .expect(404)
+          .then(res => {
+            expect(res.body).to.be.an('object')
+            expect(res.body.msg).to.equal('Not found')
+          })
+        })
+      })
+    })
+  })
 })
+
+// delete
