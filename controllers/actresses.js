@@ -41,4 +41,13 @@ const getFilmByActress = (req, res, next) => {
   .catch(next)
 }
 
-module.exports = { getActresses, getActressByName, postActress, getFilmByActress };
+const deleteActressByName = (req, res, next) => {
+  Actress.findOneAndRemove({name: req.params.actress})
+  .then(actress => {
+    if (!actress) throw { status: 404 }
+    res.status(200).send({msg: "actress has been deleted"})
+  })
+  .catch(next)
+}
+
+module.exports = { getActresses, getActressByName, postActress, deleteActressByName, getFilmByActress };

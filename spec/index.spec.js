@@ -76,6 +76,20 @@ describe('/api', () => {
           expect(res.body.msg).to.equal('Not found')
         })
       })
+      it('DELETE removes requested actress, return confirmation and 200 status code', () => {
+        return request.delete(`/api/actresses/${actresses[0].name}`)
+        .expect(200)
+        .then(res => {
+          expect(res.body.msg).to.equal('actress has been deleted')
+        })
+      })
+      it('DELETE ERROR returns error message and 404 status code', () => {
+        return request.delete(`/api/actresses/5`)
+        .expect(404)
+        .then(res => {
+          expect(res.body.msg).to.equal('Not found')
+        })
+      })
       describe('/films', () => {
         it('GET returns an array of objects of films for requested actress and 200 status code', () => {
           return request.get(`/api/actresses/${actresses[0].name}/films`)
@@ -301,7 +315,7 @@ describe('/api', () => {
           expect(res.body.msg).to.be.equal('Not found')
         })
       })
-      describe.only('/actress', () => {
+      describe('/actress', () => {
         it('GET return an object of requested actress and 200 status code', () => {
           return request.get(`/api/films/${films[0].name}/actress`)
           .expect(200)
@@ -330,5 +344,3 @@ describe('/api', () => {
     })
   })
 })
-
-// delete
